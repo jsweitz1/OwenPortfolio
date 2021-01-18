@@ -14,7 +14,7 @@
                 <div class="buttonDiv">
                     <a href="https://gapoloscores.azurewebsites.net/" class="buttonDark">View Site</a>
                     <a href="https://github.com/jsweitz1/GAPolo-Scores" class="buttonDark"><i class="fas fa-code-branch" style="margin-right:5px;"></i> Source</a>
-                    <a href="../Documents/ATLTraffic-Presentation.pdf" class="buttonDark"><i class="fas fa-file-pdf" style="margin-right:5px;"></i> One-Page Pitch</a>
+                    <a href="../Documents/GAPoloScoresPresentation.pdf" class="buttonDark"><i class="fas fa-file-pdf" style="margin-right:5px;"></i> One-Page Pitch</a>
                     <a href="../Projects.aspx" class="buttonHollow">More Projects</a>
                 </div>
             </div>
@@ -34,8 +34,8 @@
                     <h3>Skills Used</h3>
                     <ul>
                         <li>Gathering Requirements</li>
-                        <li>Visual Basic</li>
-                        <li>ASP.Net Web Forms</li>
+                        <li>Visual Basic .NET</li>
+                        <li>ASP.NET Web Forms</li>
                         <li>CSS</li>
                         <li>Azure</li>
                     </ul>
@@ -57,17 +57,17 @@
                 <div class="itemPic">
                     <img src="../Images/GAPoloScoresAdd.gif" style="width:100%;"/>
                 </div>
-                <div class="itemText"><p>Like most projects, the inspiration for this one came from an ordinary problem that I am faced with daily. If you are anything like me, 
-                    you like to check your route before leaving the house for your commute. Georgia Department of Transportation runs a 
-                    notification system through "511", and they release these alerts instantly on Twitter. These alerts have details not found on common driving apps like Waze and Google Maps that 
-                    add much needed context to help you make decisions for your drive. Drivers need a system to put those alerts more easily in front of them. 
+                <div class="itemText"><p>For this project, I wanted to work with an organization that was using some clunky processes so that I could practice gathering requirements 
+                    and creating a solution that would increase efficiency for them. I have a connection to GHSWPA through my Ownership of Kraken Water Polo and as the head coach of 
+                    Wildcat Water Polo in Marietta, GA. The As-Is system required coaches to compile an email with the game results and send to the webmaster so that he could add the 
+                    results on the website. Coaches often would wait days to send in scores and sometimes would forget, so this was a process that needed improvement.
                                       </p>
                 </div>
             </div>
             <div class="itemRow">
-                <div class="itemText"><p>I knew that I wanted to build a GUI that would contain a screen as well as buttons corresponding to each major Metro-Atlanta highway. In python, a great 
-                    tool for building a GUI is Tkinter, so I used the Tkinter Docs as well as some youtube tutorials to give me an idea of how to work with Tkinter. From there, I built out the 
-                    window (600 x 800) and styled the elements with colors and fonts inspired by a red and blue interstate sign.  
+                <div class="itemText"><p>For the to-be system, I wanted to involve table workers (scorekeepers / timekeepers) that are present at each game and require the submission 
+                    process to be added to their list of responsibilities for every game. This new system would be easily accessible by mobile device, would be quick to fill out, and would 
+                    format the data in a way that was easily accessible and uniform for the webmaster to use. 
                                       </p>
                 </div>
                 <div class="itemPic">
@@ -76,11 +76,13 @@
             </div>
             <div class="itemRow">
                 <div class="itemPic">
-                    <img src="../Images/ATLTrafficCode1.png" style="width:100%;"/>
+                    <img src="../Images/GAPoloScoresCode.png" style="width:100%;"/>
                 </div>
-                <div class="itemText"><p>Working with the Twitter API led me to signing up for official twitter development project approval. To use their API, you’ve got to 
-                    authenticate and that requires tokens and keys. Tweepy is a library that assists users working with the Twitter API, and I used Tweepy to send the keys to Twitter’s API 
-                    and to pull the data into my app. The function I wrote pulls 5 recent messages for the account fed into the function and assigns it to a variable to be displayed in the GUI. </p>
+                <div class="itemText"><p>The as-is system (coaches email to webmaster when they feel like it) had too much flexibility in how the coach formatted the email. The webmaster 
+                    needed certain information to record the scores to the site (team, time/date, location), and there is no guarantee that the coach would send the data uniformly or completely in the as-is system.
+                    So I required all form info, standardized the email message, and put the data in the email <strong>subject line</strong> so that the webmaster can avoid clicking and interpreting each message. 
+                    In the short term, this should increase efficiency in manual data entry. And in the long term it makes it easier to send data directly to a database when we automate the scores process further. 
+                                      </p>
                 </div>
             </div>
 

@@ -105,6 +105,7 @@
     <Content Include="Images\FCClogo.jpeg" />
     <Content Include="Images\GAPoloScores.jpg" />
     <Content Include="Images\GAPoloScoresAdd.gif" />
+    <Content Include="Images\GAPoloScoresCode.png" />
     <Content Include="Images\GAPoloScoresEmail.gif" />
     <Content Include="Images\ghClear2.png" />
     <Content Include="Images\ghClear3.png" />
@@ -208,6 +209,7 @@
     <Content Include="Documents\Resume-Owen-Sweitzer-1.pdf" />
     <Content Include="Documents\ATLTraffic-Presentation.pdf" />
     <Content Include="Documents\KSUStudentOnePage.pdf" />
+    <Content Include="Documents\GAPoloScoresPresentation.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
