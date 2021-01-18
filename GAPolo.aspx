@@ -13,7 +13,7 @@
                 
                 <div class="buttonDiv">
                     <a href="https://gapoloscores.azurewebsites.net/" class="buttonDark">View Site</a>
-                    <a href="https://github.com/jsweitz1/Atlanta-Traffic" class="buttonDark"><i class="fas fa-code-branch" style="margin-right:5px;"></i> Source</a>
+                    <a href="https://github.com/jsweitz1/GAPolo-Scores" class="buttonDark"><i class="fas fa-code-branch" style="margin-right:5px;"></i> Source</a>
                     <a href="../Documents/ATLTraffic-Presentation.pdf" class="buttonDark"><i class="fas fa-file-pdf" style="margin-right:5px;"></i> One-Page Pitch</a>
                     <a href="../Projects.aspx" class="buttonHollow">More Projects</a>
                 </div>

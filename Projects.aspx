@@ -70,7 +70,7 @@
                         </div>
                     <div class="projectCardBodyDivision"> 
                     <p class="projectCardDescription">Collect and email game scores for Georgia HS Water Polo Association.</p>
-                    <a class="projectCardLink" href="#">Learn More</a>
+                    <a class="projectCardLink" href="../GAPolo.aspx">Learn More</a>
                         </div>
 
                 </div>
