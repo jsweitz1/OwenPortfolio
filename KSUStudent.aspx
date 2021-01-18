@@ -12,6 +12,8 @@
                 
                 <div class="buttonDiv">
                     <a href="https://chrome.google.com/webstore/detail/ksu-student/ghnfgnocjagnfenlnpbdifpbdadchcdn" class="buttonDark"><img src="../Images/ChromeIconClear.png" style="height:1.1em; margin-right:2px;"/> Download</a>
+                    <a href="https://github.com/jsweitz1/KSU-Student" class="buttonDark"><i class="fas fa-code-branch" style="margin-right:5px;"></i> Source</a>
+                    <a href="../Documents/KSUStudentOnePage.pdf" class="buttonDark"><i class="fas fa-file-pdf" style="margin-right:5px;"></i> One-Page Pitch</a>
                     <a href="../Projects.aspx" class="buttonHollow">More Projects</a>
                 </div>
             </div>

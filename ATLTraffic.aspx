@@ -6,13 +6,14 @@
     <div class="itemContent">
         <div class="itemHeader">
             <div class="itemHeaderContent">
-                <h2>KSU Student Chrome Extension</h2>
-                <p>This browser extension gives Kennesaw State University students quick access to frequently used links, and 
-                    brightens up their browser with a little school spirit!
+                <h2>ATL Traffic</h2>
+                <p>This Python program gives Atlantans timely traffic updates at-a-glance, aggregating multiple GDOT Twitter streams into an easy to 
+                    use platform, enabling users to check if there is a traffic incident on their route at the click of a button.
                 </p>
                 
                 <div class="buttonDiv">
-                    <a href="https://github.com/jsweitz1/Atlanta-Traffic" class="buttonDark"><img src="../Images/ghClear3.png" style="height:1.1em; margin-right:2px;"/> Source</a>
+                    <a href="https://github.com/jsweitz1/Atlanta-Traffic" class="buttonDark"><i class="fas fa-code-branch" style="margin-right:5px;"></i> Source</a>
+                    <a href="../Documents/ATLTraffic-Presentation.pdf" class="buttonDark"><i class="fas fa-file-pdf" style="margin-right:5px;"></i> One-Page Pitch</a>
                     <a href="../Projects.aspx" class="buttonHollow">More Projects</a>
                 </div>
             </div>
@@ -22,24 +23,26 @@
             <div class="skillsList">
                     <h3>Features</h3>
                     <ul>
-                        <li>Interact with Chrome Browser</li>
-                        <li>Navigate Tab to University Pages</li>
+                        <li>Interface with Twitter API</li>
+                        <li>GUI to select and display content</li>
+                        <li>Themed UI (Interestate Inspired)</li>
                     </ul>
                 </div>
                 <div class="skillsList">
                     <h3>Skills Used</h3>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Tkinter GUI</li>
+                        <li>Tweepy Library</li>
+                        <li>APIs</li>
                     </ul>
                 </div>
                 <div class="skillsList">
                     <h3>Resources Used</h3>
                     <ul>
-                        <li>Google Developer Docs</li>
-                        <li>Official KSU Style Guide</li>
-                        <li>W3Schools</li>
+                        <li>Tweepy Docs</li>
+                        <li>Twitter Developer Docs</li>
+                        <li>Tkinter Docs</li>
                     </ul>
                 </div>
             </div>
@@ -49,33 +52,32 @@
             <!-- Rows of Picture/Text or Text/Picture, alternating by row. -->
             <div class="itemRow">
                 <div class="itemPic">
-                    <img src="../Images/KSUStudentExtension.gif" style="width:100%;"/>
+                    <img src="../Images/ATLTraffic.gif" style="width:100%;"/>
                 </div>
-                <div class="itemText"><p>For this browser extension, the idea came from my own experience as a KSU student. The repetitive task of navigating 
-                    from resource to resource in my studies was my area of focus. I knew that there was something I could do to make that more efficient. I started this project
-                    with no understanding of how to build a Chrome browser extension and by the end I feel that I've learned a great deal!
+                <div class="itemText"><p>Like most projects, the inspiration for this one came from an ordinary problem that I am faced with daily. If you are anything like me, 
+                    you like to check your route before leaving the house for your commute. Georgia Department of Transportation runs a 
+                    notification system through "511", and they release these alerts instantly on Twitter. These alerts have details not found on common driving apps like Waze and Google Maps that 
+                    add much needed context to help you make decisions for your drive. Drivers need a system to put those alerts more easily in front of them. 
                                       </p>
                 </div>
             </div>
             <div class="itemRow">
-                <div class="itemText"><p>After some rough building in html, I set off to style the popup. Many organizations use standards in their media/web presence and put
-                    out 'style guides' for departments to keep a unified brand image across all platforms. I wanted my app to appear to be by the school, so I knew that I needed 
-                    to stick to the style guides here when it came to colors, fonts, and logos. Though the browser extension was not sponsored by the school, I believe that it could pass 
-                    for one that is!
+                <div class="itemText"><p>I knew that I wanted to build a GUI that would contain a screen as well as buttons corresponding to each major Metro-Atlanta highway. In python, a great 
+                    tool for building a GUI is Tkinter, so I used the Tkinter Docs as well as some youtube tutorials to give me an idea of how to work with Tkinter. From there, I built out the 
+                    window (600 x 800) and styled the elements with colors and fonts inspired by a red and blue interstate sign.  
                                       </p>
                 </div>
                 <div class="itemPic">
-                    <img src="../Images/KSUStudentCSS.jpg" style="width:100%;"/>
+                    <img src="../Images/ATLTrafficCode2.png" style="width:100%;"/>
                 </div>
             </div>
             <div class="itemRow">
                 <div class="itemPic">
-                    <img src="../Images/KSUStudentJS.png" style="width:100%;"/>
+                    <img src="../Images/ATLTrafficCode1.png" style="width:100%;"/>
                 </div>
-                <div class="itemText"><p>Once I had the popup window built and styled, I needed to add the functionality using JS. The actual functions of the app aren't 
-                    incredibly complicated, just writing some functions to redirect the tab to the new address, and an event listener on the buttons waiting for the clicks. 
-                    However, after pulling together a complete fully functional browser extension in just a few hours I feel that I am well prepared to tackle even harder challenges 
-                    in the future.</p>
+                <div class="itemText"><p>Working with the Twitter API led me to signing up for official twitter development project approval. To use their API, you’ve got to 
+                    authenticate and that requires tokens and keys. Tweepy is a library that assists users working with the Twitter API, and I used Tweepy to send the keys to Twitter’s API 
+                    and to pull the data into my app. The function I wrote pulls 5 recent messages for the account fed into the function and assigns it to a variable to be displayed in the GUI. </p>
                 </div>
             </div>
 
