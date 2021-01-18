@@ -6,9 +6,9 @@
         <div class="resumeHeader">
             <div class="resumeHeaderContent">
                 <h2>Owen's Resume</h2>
-                <p>I've built up a lot of relavent skills and experience over the years, with both technology and people.
-                    I'm a lifelong learner that is always adding new skills and certifications to my toolbelt.
-                    I'm driven, entrepreneurial, and I love to win. I know I can add value to your business. Check out my resume below!
+                <p>I'm a lifelong learner that is always adding new skills and certifications to my toolbelt.
+                    I'm driven, entrepreneurial, and I love to win. I know I can add value to your business, because <strong>I'm skilled in improving business processes 
+                    and leveraging technology to increase performance.</strong> My focus is the bottom line, I can help you do more and make more. <br />Check out my resume below!
                 </p>
                 <div class="buttonDiv">
                     <a href="../Projects.aspx" class="buttonDark">Projects</a>

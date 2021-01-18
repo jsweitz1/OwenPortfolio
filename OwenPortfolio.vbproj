@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="ATLTraffic.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="GAPolo.aspx" />
     <Content Include="Images\ATLTraffic.gif" />
     <Content Include="Images\ATLTraffic.jpg" />
     <Content Include="Images\ATLTrafficCode1.png" />
@@ -103,6 +104,8 @@
     <Content Include="Images\comptia.png" />
     <Content Include="Images\FCClogo.jpeg" />
     <Content Include="Images\GAPoloScores.jpg" />
+    <Content Include="Images\GAPoloScoresAdd.gif" />
+    <Content Include="Images\GAPoloScoresEmail.gif" />
     <Content Include="Images\ghClear2.png" />
     <Content Include="Images\ghClear3.png" />
     <Content Include="Images\GoogleITcompletionbadge.png" />
@@ -135,6 +138,13 @@
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GAPolo.aspx.designer.vb">
+      <DependentUpon>GAPolo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GAPolo.aspx.vb">
+      <DependentUpon>GAPolo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="KSUStudent.aspx.designer.vb">
@@ -202,6 +212,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\OwenSweitzer - Web Deploy.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
