@@ -12,22 +12,4 @@ Option Explicit On
 
 
 Partial Public Class _Default
-
-    '''<summary>
-    '''btnProjects control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnProjects As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''btnResume control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnResume As Global.System.Web.UI.WebControls.Button
 End Class

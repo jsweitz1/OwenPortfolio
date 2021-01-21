@@ -15,8 +15,8 @@
                 </div>
             </div>
             <div class="centerContentRow">
-                <asp:Button ID="btnProjects" runat="server" Text="Projects" CssClass="btnHomepage" />
-                <asp:Button ID="btnResume" runat="server" Text="Resume" CssClass="btnHomepage" />
+                <a class="buttonDark" href="../Projects.aspx">Projects</a>
+                <a class="buttonDark" href="../Resume.aspx">Resume</a>
             </div>
 
 
