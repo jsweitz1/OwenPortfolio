@@ -28,21 +28,24 @@
                             <p class="degreeDescription">Graduated 2020</p>
                         </div>
                     
-                    
                     </div>
 
                 <div class="certArea">
                     <div class="certItem">
                         <img class="certImage" src="../Images/comptia.png" />
+                        <span class="tooltiptext">Comptia A+ IT Certification</span>
                     </div>
-                    <div class="certItem">
+                    <div class="certItem ">
                         <img class="certImage" src="../Images/GoogleITcompletionbadge.png" />
+                        <span class="tooltiptext">Google IT Support Professional Certification</span>
                     </div>
                     <div class="certItem">
                         <img class="certImage" src="../Images/Microsoft-Python.png" />
+                        <span class="tooltiptext">Introduction to Python: Fundamentals</span>
                     </div>
                     <div class="certItem">
                         <img class="certImage" src="../Images/FCClogo.jpeg" />
+                        <span class="tooltiptext">FCC: Responsive Web Design Certification</span>
                     </div>
                 </div>
             </div>

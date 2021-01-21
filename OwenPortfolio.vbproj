@@ -95,6 +95,7 @@
     <Content Include="ATLTraffic.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="GAPolo.aspx" />
+    <Content Include="Graffiti.aspx" />
     <Content Include="Images\ATLTraffic.gif" />
     <Content Include="Images\ATLTraffic.jpg" />
     <Content Include="Images\ATLTrafficCode1.png" />
@@ -110,6 +111,9 @@
     <Content Include="Images\ghClear2.png" />
     <Content Include="Images\ghClear3.png" />
     <Content Include="Images\GoogleITcompletionbadge.png" />
+    <Content Include="Images\GraffitiAdd.gif" />
+    <Content Include="Images\GraffitiCode.png" />
+    <Content Include="Images\GraffitiRandom.gif" />
     <Content Include="Images\GraffitiWall-Screenshot.jpg" />
     <Content Include="Images\KSUClassesPage.jpg" />
     <Content Include="Images\KSULogo2.png" />
@@ -146,6 +150,13 @@
     </Compile>
     <Compile Include="GAPolo.aspx.vb">
       <DependentUpon>GAPolo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Graffiti.aspx.designer.vb">
+      <DependentUpon>Graffiti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Graffiti.aspx.vb">
+      <DependentUpon>Graffiti.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="KSUStudent.aspx.designer.vb">

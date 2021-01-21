@@ -148,6 +148,8 @@ footer {
 }
 
 
+
+
 /* Projects Page */
 
 .projectsContent, .resumeContent, .itemContent {
@@ -269,6 +271,8 @@ footer {
 
 
 
+
+
 /* Resume Page */
 
 .resumeContainer, .itemContainer {
@@ -339,20 +343,40 @@ footer {
     border: 1px solid black;
 }
 .certItem {
-    width:100px;
-    height:100px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    border:1px solid black;
-    background-color:white;
-    border-radius:5px;
-    overflow:hidden;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px #888888;
 }
 .certImage {
     width:99%;
 }
+
+
+.certItem .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  }
+
+.certItem:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  }
+
 .sidebar {
     width: 30%;
     height: 100%;
@@ -418,8 +442,8 @@ footer {
 }
 
 .resumeImage {
-    width:90%;
-    margin:15px 10px;
+    width: 90%;
+    margin: 15px 10px;
 }
 
 
