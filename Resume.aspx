@@ -12,42 +12,52 @@
                 </p>
                 <div class="buttonDiv">
                     <a href="../Projects.aspx" class="buttonDark">Projects</a>
-                    <a href="#" class="buttonHollow">Contact Me</a>
+                    <a href="mailto:owen.sweitzer@gmail.com?cc=jsweitz1@students.kennesaw.edu&subject=Portfolio%20Inquiry" class="buttonHollow">Contact Me</a>
                 </div>
             </div>
         </div>
 
         <div class="resumeContainer">
             <div class="resumeRow">
-                    <div class="degreeArea">                    
-                        <div class="degreeImageContainer">
-                            <img class="degreeImage" src="../Images/KSULogo2.png"/>
-                        </div>
-                        <div class="degreeDescriptionContainer">
-                            <h3 class="degreeTitle">BBA- Information Systems, Management</h3>
-                            <p class="degreeDescription">Graduated 2020</p>
+                    <div class="degreeArea">
+                        <h3>Education</h3>
+                        <div class="containerWhite">
+                            <div class="areaRow">
+                                <div class="degreeImageContainer">
+                                    <img class="degreeImage" src="../Images/KSULogo2.png"/>
+                                </div>
+                                <div class="degreeDescriptionContainer">
+                                    <h3 class="degreeTitle">BBA- Information Systems, Management</h3>
+                                    <p class="degreeDescription">Graduated 2020</p>
+                                </div>
+                            </div>
                         </div>
                     
                     </div>
 
-                <div class="certArea">
-                    <div class="certItem">
-                        <img class="certImage" src="../Images/comptia.png" />
-                        <span class="tooltiptext">Comptia A+ IT Certification</span>
+                    <div class="certArea">
+                            <h3>Certifications</h3>
+                            <div class="areaRow">
+                                <div class="certItem">
+                                    <img class="certImage" src="../Images/comptia.png" />
+                                    <span class="tooltiptext">Comptia A+ IT Certification</span>
+                                </div>
+                                <div class="certItem ">
+                                    <img class="certImage" src="../Images/GoogleITcompletionbadge.png" />
+                                    <span class="tooltiptext">Google IT Support Professional Certification</span>
+                                </div>
+                                <div class="certItem">
+                                    <img class="certImage" src="../Images/Microsoft-Python.png" />
+                                    <span class="tooltiptext">Introduction to Python: Fundamentals</span>
+                                </div>
+                                <div class="certItem">
+                                    <img class="certImage" src="../Images/FCClogo.jpeg" />
+                                    <span class="tooltiptext">FCC: Responsive Web Design Certification</span>
+                                </div>
+                            </div>
+                            
                     </div>
-                    <div class="certItem ">
-                        <img class="certImage" src="../Images/GoogleITcompletionbadge.png" />
-                        <span class="tooltiptext">Google IT Support Professional Certification</span>
-                    </div>
-                    <div class="certItem">
-                        <img class="certImage" src="../Images/Microsoft-Python.png" />
-                        <span class="tooltiptext">Introduction to Python: Fundamentals</span>
-                    </div>
-                    <div class="certItem">
-                        <img class="certImage" src="../Images/FCClogo.jpeg" />
-                        <span class="tooltiptext">FCC: Responsive Web Design Certification</span>
-                    </div>
-                </div>
+
             </div>
 
             <div class="resumeRow">
@@ -101,7 +111,12 @@
                 </div>
 
                 <div class="resumeArea">
-                    <img class="resumeImage" src="../Images/OwenResume.png" />
+                    <div class="resumeImageDiv">
+                        <img class="resumeImage" src="../Images/OwenResume.png" />
+                        <div class="resumeTooltip">
+                            <a class="buttonDark" style="border:1px solid white;" href="../Documents/Resume-Owen-Sweitzer-1.pdf"><i class="fas fa-download" style="margin-right:3px;"></i> Download Resume</a>
+                        </div>
+                    </div>
                     
                     <a class="buttonDark" href="../Documents/Resume-Owen-Sweitzer-1.pdf"><i class="fas fa-download" style="margin-right:3px;"></i> Download Resume</a>
                     

@@ -290,17 +290,29 @@ footer {
     flex-direction:row;
     align-items:flex-start;
     justify-content:center;
+    align-self:flex-start;
 }
 
 .degreeArea {
     width:30%;
     height:200px;
     display:flex;
-    flex-direction:row;
-    justify-content:center;
+    flex-direction:column;
+    justify-content:flex-start;
     align-items:center;
     background-color:lightgray;
     border:1px solid black;
+}
+.containerWhite {
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px #888888;
 }
 
 .degreeImageContainer {
@@ -331,17 +343,24 @@ footer {
     margin:0;
     font-size:1em;
 }
-
 .certArea {
     width: 70%;
     height: 200px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background-color: lightgrey;
     border: 1px solid black;
 }
+.areaRow {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
 .certItem {
     width: 100px;
     height: 100px;
@@ -353,7 +372,7 @@ footer {
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 5px 5px 4px #888888;
 }
 .certImage {
     width:99%;
@@ -399,16 +418,18 @@ footer {
     flex-wrap:wrap;
     justify-content:space-around;
     align-items:center;
+    margin-bottom:10px;
 }
 
 .skillItem {
-    background-color:white;
-    border:1px solid black;
-    border-radius:5px;
-    margin:4px;
-    padding:3px;
-    line-height:2em;
-    text-wrap:none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 3px;
+    line-height: 2em;
+    text-wrap: none;
+    box-shadow: 5px 5px 4px #888888;
 }
 
 .volunteerContainer {
@@ -417,14 +438,18 @@ footer {
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
+    margin-bottom: 10px;
 }
 
 .volunteerItem {
-    text-align:left;
-    padding:5px;
-    border:1px solid black;
-    border-radius:5px;
-    width:90%;
+    text-align: left;
+    padding: 5px;
+    margin: 3px 0;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 5px 5px 4px #888888
 }
 .volunteerItemTitle, .volunteerDescription {
     margin:0;
@@ -441,10 +466,42 @@ footer {
     align-items:center;
 }
 
-.resumeImage {
+.resumeImageDiv {
     width: 90%;
     margin: 15px 10px;
+    padding:0;
+    border: 1px solid black;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 4px #888888;
 }
+.resumeImage {
+    width: 100%;
+    padding:0;
+    margin:0;
+    
+}
+
+.resumeImageDiv .resumeTooltip {
+    visibility: hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position: absolute;
+    z-index: 1;
+}
+.resumeImageDiv:hover .resumeTooltip {
+    visibility:visible;
+}
+
+.resumeImageDiv:hover .resumeImage {
+    opacity:0.5;
+}
+
 
 
 /* Portfolio Item Page*/
