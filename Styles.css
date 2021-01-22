@@ -235,7 +235,7 @@ footer {
 }
 .projectCardBody {
     width:250px;
-    height:200px;
+    height:100%;
     padding:7px;
     display:flex;
     flex-direction:column;
@@ -247,20 +247,33 @@ footer {
     color:grey
 }
 
+.projectCardBodyDivision {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
 .projectCardTitle {
-    margin-top:0.5em;
-    margin-bottom:0.5em;
-    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .projectCardDescription {
-
+    margin-top:0;
+    margin-bottom:0;
 
 }
 
 .projectCardLink {
-
-
+    margin:6px 0;
+    display:flex;
+    border:2px solid blue;
+    border-radius:5px;
+    padding:2px 3px 3px 3px;
+    color:blue;
+    text-decoration:none;
+    font-size:0.9em
 }
 
 .projectCardPicture {
