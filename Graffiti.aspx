@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Master1.Master" CodeBehind="Graffiti.aspx.vb" Inherits="OwenPortfolio.Graffiti" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Project- Graffiti Wall</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

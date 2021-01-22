@@ -103,6 +103,7 @@
     <Content Include="Images\ATLTrafficPresentation.png" />
     <Content Include="Images\ChromeIconClear.png" />
     <Content Include="Images\comptia.png" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\FCClogo.jpeg" />
     <Content Include="Images\GAPoloScores.jpg" />
     <Content Include="Images\GAPoloScoresAdd.gif" />

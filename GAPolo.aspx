@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Master1.Master" CodeBehind="GAPolo.aspx.vb" Inherits="OwenPortfolio.GAPolo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Project- GAPolo Scores</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

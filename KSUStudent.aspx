@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Master1.Master" CodeBehind="KSUStudent.aspx.vb" Inherits="OwenPortfolio.KSUStudent" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Project- KSU Student</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="itemContent">
