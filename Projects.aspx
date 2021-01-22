@@ -90,6 +90,20 @@
                     </div>
                 <img  class="projectCardPicture" src="/Images/ATLTraffic.jpg" />
             </div>
+            <!--Project Card -->
+            <div class="projectCard">
+                <div class="projectCardBody">
+                    <div class="projectCardBodyDivision"> 
+                    <h3 class="projectCardTitle">Kraken Signup System</h3>
+                    <strong class="projectCardType">Process Improvement</strong>
+                        </div>
+                    <div class="projectCardBodyDivision"> 
+                    <p class="projectCardDescription">Implement software system(s) to automate key processes and remove bottlenecks. </p>
+                    <a class="projectCardLink" href="../ATLTraffic.aspx">Learn More</a>
+                        </div>
+                    </div>
+                <img  class="projectCardPicture" src="/Images/Kraken-Page.png" />
+            </div>
 
         </div>
     </div>
