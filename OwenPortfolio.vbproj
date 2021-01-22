@@ -126,6 +126,7 @@
     <Content Include="Images\Microsoft-Python.png" />
     <Content Include="Images\Owen-Face-Centered.png" />
     <Content Include="Images\OwenResume.png" />
+    <Content Include="KrakenSignup.aspx" />
     <Content Include="KSUStudent.aspx" />
     <Content Include="Projects.aspx" />
     <Content Include="Resume.aspx" />
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="Graffiti.aspx.vb">
       <DependentUpon>Graffiti.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="KrakenSignup.aspx.designer.vb">
+      <DependentUpon>KrakenSignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KrakenSignup.aspx.vb">
+      <DependentUpon>KrakenSignup.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="KSUStudent.aspx.designer.vb">

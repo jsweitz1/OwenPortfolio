@@ -99,7 +99,7 @@
                         </div>
                     <div class="projectCardBodyDivision"> 
                     <p class="projectCardDescription">Implement software system(s) to automate key processes and remove bottlenecks. </p>
-                    <a class="projectCardLink" href="../ATLTraffic.aspx">Learn More</a>
+                    <a class="projectCardLink" href="../KrakenSignup.aspx">Learn More</a>
                         </div>
                     </div>
                 <img  class="projectCardPicture" src="/Images/Kraken-Page.png" />
