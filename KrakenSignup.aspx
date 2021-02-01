@@ -26,10 +26,9 @@
             <div class="skillsList">
                     <h3>Features</h3>
                     <ul>
-                        <li>Single-serving site</li>
-                        <li>Generate random message from DB</li>
-                        <li>Write message to DB</li>
-                        <li>Live rendering of text</li>
+                        <li>Automates time consuming processes</li>
+                        <li>Allows Credit/Debit payment</li>
+                        <li>Removes bottlenecks, ready to scale up</li>
                     </ul>
                 </div>
                 <div class="skillsList">
@@ -38,32 +37,38 @@
                         <li>Requirements Gathering</li>
                         <li>Systems Analysis & Design</li>
                         <li>Software Implementation</li>
-                        <li>Azure</li>
+                        <li>UML Diagramming</li>
                     </ul>
                 </div>
                 <div class="skillsList">
                     <h3>Resources Used</h3>
                     <ul>
-                        <li>Microsoft Docs (ASP.Net)</li>
-                        <li>Visual Studio</li>
-                        <li>Microsoft Docs (Azure)</li>
-                        <li>StackOverflow</li>
+                        <li>Google Forms</li>
+                        <li>Stripe Payments</li>
+                        <li>Webs.com</li>
+                        <li>Teamstuff</li>
                     </ul>
                 </div>
             </div>
 
         <div class="itemContainer">
               
-            <!-- Rows of Picture/Text or Text/Picture, alternating by row. -->
+           <!-- Rows of picture only -->
             <div class="itemRow">
-                <div class="itemPic">
-                    <img src="../Images/GraffitiRandom.gif" style="width:100%;"/>
-                </div>
-                <div class="itemText"><p>This project started with the intention of being a silly single-serving site with some viral potential that emulated the experience of discovering funny 
-                    bathroom stall graffiti sayings. The app takes random submitted phrases and displays them on the digital ‘wall’, and users never know what phrases they will get. 
-                                      </p>
-                </div>
+                
+                    <img src="../Images/KrakenSignupAS.png" style="width:100%;"/>
+
             </div>
+
+            <div class="itemRow">
+                
+                    <img src="../Images/KrakenSignupTO.png" style="width:100%;"/>
+
+            </div>
+
+
+
+             <!-- Rows of Picture/Text or Text/Picture, alternating by row. -->
             <div class="itemRow">
                 <div class="itemText"><p>Some of the struggles through this app were tackling the real-time render of text on the Add Graffiti page. Using some ASP.NET tools like the update
                     panel, I was able to refresh the ‘wall’ to mirror the content of the submission box without refreshing the whole page and while keeping the submission box active. On mobile, 

@@ -96,6 +96,7 @@
     <Content Include="Default.aspx" />
     <Content Include="GAPolo.aspx" />
     <Content Include="Graffiti.aspx" />
+    <Content Include="Images\KrakenSignupAS.png" />
     <Content Include="Images\ATLTraffic.gif" />
     <Content Include="Images\ATLTraffic.jpg" />
     <Content Include="Images\ATLTrafficCode1.png" />
@@ -126,6 +127,7 @@
     <Content Include="Images\Microsoft-Python.png" />
     <Content Include="Images\Owen-Face-Centered.png" />
     <Content Include="Images\OwenResume.png" />
+    <Content Include="Images\KrakenSignupTO.png" />
     <Content Include="KrakenSignup.aspx" />
     <Content Include="KSUStudent.aspx" />
     <Content Include="Projects.aspx" />
