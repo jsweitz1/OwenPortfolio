@@ -130,6 +130,7 @@
     <Content Include="Images\KrakenSignupTO.png" />
     <Content Include="KrakenSignup.aspx" />
     <Content Include="KSUStudent.aspx" />
+    <Content Include="ModalJS.js" />
     <Content Include="Projects.aspx" />
     <Content Include="Resume.aspx" />
     <Content Include="Styles.css" />

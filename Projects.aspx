@@ -9,7 +9,7 @@
                 <h2>Owen Projects</h2>
                 <p>I've been working on a variety of different projects through school and business using many 
                     kinds of technologies. On this page you will find some of the projects I've highlighted in my portfolio. 
-                    check it out below!
+                    Check it out below!
                 </p>
                 <div class="buttonDiv">
                     <a href="../Resume.aspx" class="buttonDark">Resume</a>
