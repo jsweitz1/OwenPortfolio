@@ -13,7 +13,7 @@
                 </p>
                 <div class="buttonDiv">
                     <a href="../Resume.aspx" class="buttonDark">Resume</a>
-                    <a href="#" class="buttonHollow">Contact Me</a>
+                    <a href="mailto:owen.sweitzer@gmail.com?cc=jsweitz1@students.kennesaw.edu&subject=Portfolio%20Inquiry" class="buttonHollow">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -28,10 +28,20 @@
                     </div>
                     <div class="projectCardBodyDivision">
                         <p class="projectCardDescription">Collaborative environment for KSU students to leave comments/ratings and more about their classes.</p>
-                        <a class="projectCardLink" href="#">Learn More</a>
+                        <a id="myBtn" class="projectCardLink" href="#">Learn More</a>
                     </div>
                 </div>
                 <img  class="projectCardPicture" src="/Images/KSUClassesPage.jpg" />
+            </div>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal" style="display:none">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p><strong>Not Yet Available</strong></p>
+                <p>The KSUCollab project write-up is not yet available.</p>
+              </div>
+
             </div>
             <!--Project Card -->
             <div class="projectCard">
@@ -109,5 +119,5 @@
     </div>
     
 
-
+    <script src="ModalJS.js"></script>
 </asp:Content>
