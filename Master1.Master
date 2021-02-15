@@ -37,10 +37,12 @@
             <footer>
                 <div class="footerRow">
                     <div class="footerContent">
-                        <p>Footer Area 1</p>
+                       <a href="https://www.linkedin.com/in/owen-sweitzer/"><i class="fab fa-linkedin"></i> Find me on Linkedin</a>
+                        
                     </div>
                     <div class="footerContent">
-                        <p>Footer Area 2</p>
+                        <a href="mailto:owen.sweitzer@gmail.com?cc=jsweitz1@students.kennesaw.edu&subject=Portfolio%20Inquiry"><i class="far fa-envelope"></i> Send me an Email</a>
+                        
                     </div>
                 </div>
             </footer>
