@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Hire Owen Sweitzer!</title>
     
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="defaultContent">
@@ -17,8 +18,8 @@
                 </div>
             </div>
             <div class="centerContentRow">
-                <a class="buttonDark buttonShadow-big" href="../Projects.aspx">Projects</a>
-                <a class="buttonDark buttonShadow-big" href="../Resume.aspx">Resume</a>
+                <a class="buttonDark homeButton" href="../Projects.aspx"><span class="material-icons" style="margin-right:3px;">emoji_objects</span> Projects</a>
+                <a class="buttonDark homeButton" href="../Resume.aspx"><span class="material-icons" style="margin-right:3px;">description</span> Resume</a>
             </div>
 
             <!-- Work In Progress Modal 

@@ -12,7 +12,7 @@
                     and leveraging technology to increase performance.</strong> My focus is the bottom line, I can help you do more and make more. <br />Check out my resume below!
                 </p>
                 <div class="buttonDiv">
-                    <a href="../Projects.aspx" class="buttonDark">Projects</a>
+                    <a href="../Projects.aspx" class="buttonDark"><span class="material-icons" style="margin-right:3px;">emoji_objects</span> Projects</a>
                     <a href="mailto:owen.sweitzer@gmail.com?cc=jsweitz1@students.kennesaw.edu&subject=Portfolio%20Inquiry" class="buttonHollow">Contact Me</a>
                 </div>
             </div>

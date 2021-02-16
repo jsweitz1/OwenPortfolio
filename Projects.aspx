@@ -12,7 +12,7 @@
                     Check it out below!
                 </p>
                 <div class="buttonDiv">
-                    <a href="../Resume.aspx" class="buttonDark">Resume</a>
+                    <a href="../Resume.aspx" class="buttonDark"><span class="material-icons" style="margin-right:3px;">description</span> Resume</a>
                     <a href="mailto:owen.sweitzer@gmail.com?cc=jsweitz1@students.kennesaw.edu&subject=Portfolio%20Inquiry" class="buttonHollow">Contact Me</a>
                 </div>
             </div>
