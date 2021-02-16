@@ -34,19 +34,18 @@ header {
 }
 
 .headerTitle {
-    width:30%;
-    min-width:320px;
-    display:flex;
-    flex-direction:column;
-    justify-content:end;
-    align-items:center;
-
+    /* width:30%; */
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 .headerTitle p {
     color: transparent;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 2px white;
     text-align:center;
-    font-size:2.5em;
+    font-size:4em;
     font-weight:800;
     letter-spacing: 1px;
     margin:0;
