@@ -7,18 +7,18 @@
     <div class="defaultContent">
         <div class="centerContent">
             <div class="centerContentRow">
-                <div class="pictureDiv">
+                <div class="pictureDiv buttonShadow-big">
                     <!-- Owen Face Picture-->
                 </div>
             </div>
             <div class="centerContentRow">
                 <div class="greetingDiv">
-                    <p>Hey y'all, my name is Owen Sweitzer and I want to work for you!</p>
+                    <p style="text-shadow:0px 3px 3px rgba(0,0,0,0.15), 0px 3px 5px rgba(0,0,0,0.15);">Hey y'all, my name is Owen Sweitzer and I want to work for you!</p>
                 </div>
             </div>
             <div class="centerContentRow">
-                <a class="buttonDark" href="../Projects.aspx">Projects</a>
-                <a class="buttonDark" href="../Resume.aspx">Resume</a>
+                <a class="buttonDark buttonShadow-big" href="../Projects.aspx">Projects</a>
+                <a class="buttonDark buttonShadow-big" href="../Resume.aspx">Resume</a>
             </div>
 
             <!-- Work In Progress Modal 

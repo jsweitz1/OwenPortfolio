@@ -69,10 +69,11 @@ header {
     color:white;
     font-weight:bold;
     font-size:1.4em;
+    transition: all 1s;
 }
 .headerLinks a:hover {
     opacity:1;
-    font-weight:800;
+    text-shadow:-0px -0px 5px white;
 }
 
 
@@ -112,6 +113,7 @@ footer {
     font-size: 1.2em;
     text-decoration: none;
     opacity:0.8;
+    transition: all 1s;
 }
 
 .footerContent a:hover {
@@ -165,11 +167,11 @@ footer {
 }
 
 .btnHomepage {
-    margin:3px;
-    font-size:1.3em;
-    padding:3px;
-    border-radius:3px;
-
+    margin: 3px;
+    font-size: 1.3em;
+    padding: 3px;
+    border-radius: 3px;
+    
 }
 
 
@@ -297,11 +299,17 @@ footer {
 .buttonDark {
     background-color:blue;
     color:white;
-
 }
 
 .buttonHollow {
     color:blue;
+}
+
+.buttonShadow-big {
+    box-shadow: 0 6px 30px -10px black;
+}
+.buttonShadow-small {
+    box-shadow: 0 6px 15px -5px black;
 }
 
 .projectsContainer {
