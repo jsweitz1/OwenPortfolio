@@ -8,9 +8,10 @@
 /* Master Page */
 
 .masterPageContent {
-    min-height:100vh; 
+    min-height: 100vh;
     text-align: center;
-    background-color:lightsteelblue;
+    background-color: #9DC2F7; /* matching the lighter blue in my shirt*/
+    /*background-color: #548EDB; Matching the darker blue in the shirt*/
 }
 
 header {
@@ -234,9 +235,9 @@ footer {
 }
 
 .modal-header {
-  padding: 2px 16px;
-  background-color: lightsteelblue;
-  color: white;
+    padding: 2px 16px;
+    background-color: #9DC2F7;
+    color: white;
 }
 
 .modal-body {padding: 2px 16px;}
