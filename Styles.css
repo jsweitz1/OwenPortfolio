@@ -152,9 +152,10 @@ footer {
     width: 190px;
     background-image: url("/Images/Owen-Face-Centered.png");
     background-size: 260px;
-    background-position:center;
+    background-position: center;
     border: 2px solid white;
     border-radius: 50%;
+    box-shadow: 0 6px 30px -10px black;
 }
 
 .greetingDiv {

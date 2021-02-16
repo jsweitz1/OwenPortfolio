@@ -8,7 +8,7 @@
     <div class="defaultContent">
         <div class="centerContent">
             <div class="centerContentRow">
-                <div class="pictureDiv buttonShadow-big">
+                <div class="pictureDiv">
                     <!-- Owen Face Picture-->
                 </div>
             </div>
