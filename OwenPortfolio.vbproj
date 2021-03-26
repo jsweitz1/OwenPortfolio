@@ -119,6 +119,13 @@
     <Content Include="Images\GraffitiWall-Screenshot.jpg" />
     <Content Include="Images\Kraken-Page.png" />
     <Content Include="Images\KSUClassesPage.jpg" />
+    <Content Include="Images\KSUCollab-1.png" />
+    <Content Include="Images\KSUCollab-2.png" />
+    <Content Include="Images\KSUCollab-3.png" />
+    <Content Include="Images\KSUCollab-4.png" />
+    <Content Include="Images\KSUCollab-5.png" />
+    <Content Include="Images\KSUCollab-6.png" />
+    <Content Include="Images\KSUCollab-7.png" />
     <Content Include="Images\KSULogo2.png" />
     <Content Include="Images\KSUStudentCSS.jpg" />
     <Content Include="Images\KSUStudentExtension.gif" />
@@ -129,6 +136,7 @@
     <Content Include="Images\OwenResume.png" />
     <Content Include="Images\KrakenSignupTO.png" />
     <Content Include="KrakenSignup.aspx" />
+    <Content Include="KSUCollab.aspx" />
     <Content Include="KSUStudent.aspx" />
     <Content Include="ModalJS.js" />
     <Content Include="Projects.aspx" />
@@ -170,6 +178,13 @@
     </Compile>
     <Compile Include="KrakenSignup.aspx.vb">
       <DependentUpon>KrakenSignup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="KSUCollab.aspx.designer.vb">
+      <DependentUpon>KSUCollab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KSUCollab.aspx.vb">
+      <DependentUpon>KSUCollab.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="KSUStudent.aspx.designer.vb">
@@ -234,11 +249,13 @@
     <Content Include="Documents\ATLTraffic-Presentation.pdf" />
     <Content Include="Documents\KSUStudentOnePage.pdf" />
     <Content Include="Documents\GAPoloScoresPresentation.pdf" />
+    <Content Include="Documents\KSU-Collab-One-Page.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
     <None Include="My Project\PublishProfiles\OwenSweitzer - Web Deploy.pubxml" />
+    <None Include="My Project\PublishProfiles\OwenSweitzer - Web Deploy1.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
