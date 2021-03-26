@@ -28,16 +28,16 @@
                     </div>
                     <div class="projectCardBodyDivision">
                         <p class="projectCardDescription">Collaborative environment for KSU students to leave comments/ratings and more about their classes.</p>
-                        <a id="myBtn" class="projectCardLink" href="#">Learn More</a>
+                        <a id="myBtn" class="projectCardLink" href="../KSUCollab.aspx">Learn More</a>
                     </div>
                 </div>
                 <img  class="projectCardPicture" src="/Images/KSUClassesPage.jpg" />
             </div>
 
-            <!-- Modal -->
-            <div id="myModal" class="modal">
+            <!-- Modal 
+            <div id="myModal" class="modal"> -->
 
-              <!-- Modal content -->
+              <!-- Modal content
               <div class="modal-content">
                 <div class="modal-header">
                   <span class="close">&times;</span>
@@ -49,7 +49,7 @@
                 </div>            
               </div>
 
-            </div>
+            </div> -->
             <!--Project Card -->
             <div class="projectCard">
                 <div class="projectCardBody">
