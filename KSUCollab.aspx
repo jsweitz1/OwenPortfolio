@@ -107,10 +107,10 @@
                 </div>
             </div>
             <div class="itemRow">
-                <div class="itemText"><p>For an admin user, one of the Admin Tools I created was the ‘classes’ tool. In the classes Admin Tool, an admin user can view a list of all 
-                    classes and delete the entries from the database completely. This is an important tool because, for the best user experience 
+                <div class="itemText"><p>For an admin user, one of the Admin Tools I created was the Classes Tool. In this Admin Tool, an admin user can view a list of all 
+                    Created classes and delete entries from the database completely. This is an important tool because, for the best user experience 
                     possible, user created content is instantly added without review. Admins are able to delete content that is not appropriate 
-                    or accurate. In a phase 2, an important feature here would be an edit function, which would give the admin the ability to 
+                    or accurate. In a phase 2, an important feature to add here would be an edit function, which would give the admin the ability to 
                     make corrections to the Department, ClassCode, and ClassName without removing connected content like Comments and Ratings. 
                                       </p>
                 </div>
