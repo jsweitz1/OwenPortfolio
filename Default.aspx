@@ -39,7 +39,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <span class="close">&times;</span>
-                  <h2>Thank you for checking out my page!</h2>
+                  <h2>Thank you for checking out my portfolio!</h2>
                 </div>
                 <div class="modal-body">
                   <p>I am currently exploring employment opportunities at the same time as building this site. The information here is important and I wanted it to be available for you to view right away.</p>
